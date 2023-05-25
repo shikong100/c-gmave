@@ -1,0 +1,2068 @@
+reading npy...
+positive label rate: 0.12700764741504508
+one_epoch_iter: 77.0
+total_iter: 6930.0
+showing the parameters...
+Namespace(T0=50, T_mult=2, batch_size=128, c_coeff=0.0, check_freq=40, checkpoint_path='./model/model_mirflickr/lr-0.00075_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-10.00/vae-14014', cpc_sample_wise=False, data_dir='data/mirflickr/mirflickr_data.npy', dataset='mirflickr', emb_size=2048, eta_min=0.0002, feature_dim=1000, finetune=False, keep_prob=0.5, l2_coeff=1.0, label_dim=38, latent_dim=64, learning_rate=0.002, lr_decay_ratio=0.5, lr_decay_times=4.0, max_epoch=90, max_keep=3, meta_offset=0, mode='train', n_test_sample=5, n_train_sample=5, nll_coeff=0.5, pretrain_path='./model', reg='gmvae', residue_sigma='', resume=False, save_epoch=1, scale_coeff=1.0, seed=1, swa=False, swa_start=100, test_batch_size=128, test_idx='data/mirflickr/mirflickr_test_idx.npy', test_sample=False, train_idx='data/mirflickr/mirflickr_train_idx.npy', train_ratio=1.0, valid_idx='data/mirflickr/mirflickr_val_idx.npy', weight_decay=1e-05, write_to_test_sh=True, z_dim=38)
+building network...
+epoch 1 starts!
+step=40  2023-05-15T10:03:33.862285
+macro_f1=0.004872, micro_f1=0.014987
+nll_loss=7.596020	nll_loss_x=7.579853
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.073847	cpc_loss=3.189896
+latent_cpc_loss=5.542586	feat_recon_loss=0.433925	total_loss=26.529819
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:35.151122
+acc=0.032179	ha=0.872366	exam_f1=0.399087, macro_f1=0.173844, micro_f1=0.424826
+nll_loss=5.989146	c_loss=0.000000
+kl_loss=0.013183	total_loss=21.157150
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 2 starts!
+step=80  2023-05-15T10:03:35.242824
+macro_f1=0.000000, micro_f1=0.000000
+nll_loss=6.089180	nll_loss_x=6.102165
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.028351	cpc_loss=3.156538
+latent_cpc_loss=5.539421	feat_recon_loss=0.397085	total_loss=21.612295
+
+step=120  2023-05-15T10:03:35.747892
+macro_f1=0.002866, micro_f1=0.008802
+nll_loss=5.833183	nll_loss_x=5.948595
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.019150	cpc_loss=3.103976
+latent_cpc_loss=5.542634	feat_recon_loss=0.382377	total_loss=20.945753
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:37.010728
+acc=0.019959	ha=0.879355	exam_f1=0.431133, macro_f1=0.234814, micro_f1=0.466834
+nll_loss=5.578014	c_loss=0.000000
+kl_loss=0.009663	total_loss=19.798807
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 3 starts!
+step=160  2023-05-15T10:03:37.113822
+macro_f1=0.031018, micro_f1=0.113184
+nll_loss=5.646214	nll_loss_x=5.804460
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.018233	cpc_loss=3.020233
+latent_cpc_loss=5.540984	feat_recon_loss=0.367110	total_loss=20.402052
+
+step=200  2023-05-15T10:03:37.617538
+macro_f1=0.055692, micro_f1=0.199307
+nll_loss=5.489986	nll_loss_x=5.611746
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008399	cpc_loss=2.936009
+latent_cpc_loss=5.542323	feat_recon_loss=0.352113	total_loss=19.762539
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:38.857627
+acc=0.023218	ha=0.882646	exam_f1=0.445577, macro_f1=0.252595, micro_f1=0.482282
+nll_loss=5.390314	c_loss=0.000000
+kl_loss=0.013439	total_loss=19.193644
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 4 starts!
+step=240  2023-05-15T10:03:39.004353
+macro_f1=0.069760, micro_f1=0.234902
+nll_loss=5.411336	nll_loss_x=5.531491
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.012844	cpc_loss=2.960968
+latent_cpc_loss=5.542175	feat_recon_loss=0.338908	total_loss=19.545429
+
+step=280  2023-05-15T10:03:39.513977
+macro_f1=0.084724, micro_f1=0.277718
+nll_loss=5.302240	nll_loss_x=5.428281
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.013790	cpc_loss=2.866525
+latent_cpc_loss=5.541804	feat_recon_loss=0.327467	total_loss=19.190840
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:40.714794
+acc=0.026884	ha=0.885325	exam_f1=0.463100, macro_f1=0.277571, micro_f1=0.505706
+nll_loss=5.228641	c_loss=0.000000
+kl_loss=0.009067	total_loss=18.628948
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 5 starts!
+step=320  2023-05-15T10:03:40.892678
+macro_f1=0.093026, micro_f1=0.301417
+nll_loss=5.218623	nll_loss_x=5.339726
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009611	cpc_loss=2.791529
+latent_cpc_loss=5.541345	feat_recon_loss=0.317982	total_loss=18.895971
+
+step=360  2023-05-15T10:03:41.398738
+macro_f1=0.102287, micro_f1=0.313624
+nll_loss=5.178368	nll_loss_x=5.337566
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.011636	cpc_loss=2.890645
+latent_cpc_loss=5.542003	feat_recon_loss=0.307057	total_loss=18.816000
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:42.567755
+acc=0.030957	ha=0.887576	exam_f1=0.473819, macro_f1=0.289422, micro_f1=0.516444
+nll_loss=5.120384	c_loss=0.000000
+kl_loss=0.003425	total_loss=18.245584
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 6 starts!
+step=400  2023-05-15T10:03:42.781020
+macro_f1=0.106351, micro_f1=0.320291
+nll_loss=5.134077	nll_loss_x=5.316778
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.013993	cpc_loss=2.868679
+latent_cpc_loss=5.541490	feat_recon_loss=0.298566	total_loss=18.737570
+
+step=440  2023-05-15T10:03:43.289678
+macro_f1=0.115539, micro_f1=0.336923
+nll_loss=5.017468	nll_loss_x=5.187211
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.013507	cpc_loss=2.758894
+latent_cpc_loss=5.541562	feat_recon_loss=0.289154	total_loss=18.351210
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:44.422560
+acc=0.039919	ha=0.889849	exam_f1=0.483648, macro_f1=0.303767, micro_f1=0.529097
+nll_loss=5.026219	c_loss=0.000000
+kl_loss=0.002238	total_loss=17.932669
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 7 starts!
+step=480  2023-05-15T10:03:44.677178
+macro_f1=0.126638, micro_f1=0.343203
+nll_loss=5.045187	nll_loss_x=5.227697
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007739	cpc_loss=2.817786
+latent_cpc_loss=5.541808	feat_recon_loss=0.282328	total_loss=18.413479
+
+step=520  2023-05-15T10:03:45.189743
+macro_f1=0.136194, micro_f1=0.361076
+nll_loss=4.949018	nll_loss_x=5.151384
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.012326	cpc_loss=2.908738
+latent_cpc_loss=5.541934	feat_recon_loss=0.275455	total_loss=18.161484
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:46.285568
+acc=0.042770	ha=0.892775	exam_f1=0.488943, macro_f1=0.311511, micro_f1=0.533585
+nll_loss=4.956409	c_loss=0.000000
+kl_loss=0.009583	total_loss=17.753422
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 8 starts!
+step=560  2023-05-15T10:03:46.575523
+macro_f1=0.149692, micro_f1=0.378404
+nll_loss=4.900154	nll_loss_x=5.097229
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010317	cpc_loss=2.950995
+latent_cpc_loss=5.541617	feat_recon_loss=0.269284	total_loss=18.003498
+
+step=600  2023-05-15T10:03:47.097864
+macro_f1=0.146616, micro_f1=0.375664
+nll_loss=4.872906	nll_loss_x=5.100398
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007743	cpc_loss=2.810457
+latent_cpc_loss=5.541961	feat_recon_loss=0.264619	total_loss=17.922985
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:48.162949
+acc=0.044399	ha=0.893804	exam_f1=0.490534, macro_f1=0.324239, micro_f1=0.536667
+nll_loss=4.907200	c_loss=0.000000
+kl_loss=0.011190	total_loss=17.602028
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 9 starts!
+step=640  2023-05-15T10:03:48.486148
+macro_f1=0.166063, micro_f1=0.391986
+nll_loss=4.838742	nll_loss_x=5.053550
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.012900	cpc_loss=2.815434
+latent_cpc_loss=5.541562	feat_recon_loss=0.259284	total_loss=17.832987
+
+step=680  2023-05-15T10:03:48.985894
+macro_f1=0.162371, micro_f1=0.394748
+nll_loss=4.799756	nll_loss_x=5.025238
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009601	cpc_loss=2.762461
+latent_cpc_loss=5.541914	feat_recon_loss=0.254315	total_loss=17.726065
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:50.021787
+acc=0.052546	ha=0.894662	exam_f1=0.499919, macro_f1=0.335135, micro_f1=0.544762
+nll_loss=4.861982	c_loss=0.000000
+kl_loss=0.009812	total_loss=17.453842
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 10 starts!
+step=720  2023-05-15T10:03:50.399648
+macro_f1=0.169917, micro_f1=0.399363
+nll_loss=4.819887	nll_loss_x=5.051848
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007462	cpc_loss=2.806404
+latent_cpc_loss=5.541598	feat_recon_loss=0.249952	total_loss=17.779600
+
+step=760  2023-05-15T10:03:50.919990
+macro_f1=0.172855, micro_f1=0.402302
+nll_loss=4.749676	nll_loss_x=4.985608
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007956	cpc_loss=2.818153
+latent_cpc_loss=5.541966	feat_recon_loss=0.245686	total_loss=17.573805
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:51.914364
+acc=0.045621	ha=0.895916	exam_f1=0.502352, macro_f1=0.338660, micro_f1=0.548464
+nll_loss=4.817905	c_loss=0.000000
+kl_loss=0.010430	total_loss=17.311789
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 11 starts!
+step=800  2023-05-15T10:03:52.323732
+macro_f1=0.178358, micro_f1=0.410692
+nll_loss=4.715799	nll_loss_x=4.958980
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007809	cpc_loss=2.881519
+latent_cpc_loss=5.541546	feat_recon_loss=0.242940	total_loss=17.472347
+
+step=840  2023-05-15T10:03:52.844219
+macro_f1=0.185070, micro_f1=0.419313
+nll_loss=4.714688	nll_loss_x=4.939562
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009783	cpc_loss=2.880503
+latent_cpc_loss=5.542163	feat_recon_loss=0.238257	total_loss=17.443792
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:53.791026
+acc=0.053768	ha=0.896516	exam_f1=0.505836, macro_f1=0.346112, micro_f1=0.550291
+nll_loss=4.788581	c_loss=0.000000
+kl_loss=0.007404	total_loss=17.204309
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 12 starts!
+step=880  2023-05-15T10:03:54.228047
+macro_f1=0.184433, micro_f1=0.419603
+nll_loss=4.657781	nll_loss_x=4.898387
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007868	cpc_loss=2.672143
+latent_cpc_loss=5.541845	feat_recon_loss=0.236427	total_loss=17.257998
+
+step=920  2023-05-15T10:03:54.739762
+macro_f1=0.195095, micro_f1=0.429366
+nll_loss=4.697338	nll_loss_x=4.936430
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009385	cpc_loss=2.804145
+latent_cpc_loss=5.541982	feat_recon_loss=0.234081	total_loss=17.414680
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:55.654550
+acc=0.048880	ha=0.897084	exam_f1=0.508828, macro_f1=0.353391, micro_f1=0.553131
+nll_loss=4.757927	c_loss=0.000000
+kl_loss=0.012326	total_loss=17.134558
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 13 starts!
+step=960  2023-05-15T10:03:56.137141
+macro_f1=0.194132, micro_f1=0.433172
+nll_loss=4.659338	nll_loss_x=4.903580
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010688	cpc_loss=2.679252
+latent_cpc_loss=5.541536	feat_recon_loss=0.230937	total_loss=17.291687
+
+step=1000  2023-05-15T10:03:56.647327
+macro_f1=0.200331, micro_f1=0.439573
+nll_loss=4.620050	nll_loss_x=4.859015
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008923	cpc_loss=2.851075
+latent_cpc_loss=5.541716	feat_recon_loss=0.228661	total_loss=17.178053
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:57.512892
+acc=0.059470	ha=0.897524	exam_f1=0.511002, macro_f1=0.359887, micro_f1=0.555342
+nll_loss=4.735331	c_loss=0.000000
+kl_loss=0.003896	total_loss=17.012049
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 14 starts!
+step=1040  2023-05-15T10:03:58.030511
+macro_f1=0.203158, micro_f1=0.443547
+nll_loss=4.569658	nll_loss_x=4.805257
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009571	cpc_loss=2.742582
+latent_cpc_loss=5.541668	feat_recon_loss=0.225941	total_loss=16.999945
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:03:59.355433
+acc=0.059878	ha=0.897920	exam_f1=0.509774, macro_f1=0.362345, micro_f1=0.555172
+nll_loss=4.727778	c_loss=0.000000
+kl_loss=0.013422	total_loss=17.032118
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 15 starts!
+step=1080  2023-05-15T10:03:59.410244
+macro_f1=0.204095, micro_f1=0.441469
+nll_loss=4.621618	nll_loss_x=4.859870
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006040	cpc_loss=2.701853
+latent_cpc_loss=5.542150	feat_recon_loss=0.224566	total_loss=17.140881
+
+step=1120  2023-05-15T10:03:59.918572
+macro_f1=0.210397, micro_f1=0.454162
+nll_loss=4.539377	nll_loss_x=4.777206
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.012102	cpc_loss=2.765583
+latent_cpc_loss=5.541497	feat_recon_loss=0.221311	total_loss=16.905949
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:01.223799
+acc=0.058248	ha=0.898113	exam_f1=0.513010, macro_f1=0.366029, micro_f1=0.557108
+nll_loss=4.704014	c_loss=0.000000
+kl_loss=0.009483	total_loss=16.940193
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 16 starts!
+step=1160  2023-05-15T10:04:01.316533
+macro_f1=0.211732, micro_f1=0.446336
+nll_loss=4.572499	nll_loss_x=4.818933
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007118	cpc_loss=2.686390
+latent_cpc_loss=5.541644	feat_recon_loss=0.220056	total_loss=17.002186
+
+step=1200  2023-05-15T10:04:01.815860
+macro_f1=0.215891, micro_f1=0.457257
+nll_loss=4.502286	nll_loss_x=4.744752
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008824	cpc_loss=2.668658
+latent_cpc_loss=5.541690	feat_recon_loss=0.218430	total_loss=16.772440
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:03.047909
+acc=0.059878	ha=0.897449	exam_f1=0.516448, macro_f1=0.365573, micro_f1=0.559607
+nll_loss=4.702036	c_loss=0.000000
+kl_loss=0.007406	total_loss=16.916431
+**********************************************
+--------------------------------
+epoch 17 starts!
+step=1240  2023-05-15T10:04:03.141215
+macro_f1=0.212718, micro_f1=0.447281
+nll_loss=4.560404	nll_loss_x=4.822360
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005953	cpc_loss=2.715466
+latent_cpc_loss=5.541648	feat_recon_loss=0.217349	total_loss=16.980946
+
+step=1280  2023-05-15T10:04:03.608289
+macro_f1=0.227214, micro_f1=0.470266
+nll_loss=4.501249	nll_loss_x=4.744825
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008815	cpc_loss=2.751522
+latent_cpc_loss=5.541479	feat_recon_loss=0.215652	total_loss=16.768862
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:04.817865
+acc=0.059878	ha=0.898939	exam_f1=0.518567, macro_f1=0.379573, micro_f1=0.561632
+nll_loss=4.666285	c_loss=0.000000
+kl_loss=0.006836	total_loss=16.797426
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 18 starts!
+step=1320  2023-05-15T10:04:04.975583
+macro_f1=0.210653, micro_f1=0.449705
+nll_loss=4.505836	nll_loss_x=4.766107
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006598	cpc_loss=2.781968
+latent_cpc_loss=5.541780	feat_recon_loss=0.214265	total_loss=16.794355
+
+step=1360  2023-05-15T10:04:05.462071
+macro_f1=0.226207, micro_f1=0.472060
+nll_loss=4.477819	nll_loss_x=4.716734
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003968	cpc_loss=2.718931
+latent_cpc_loss=5.541327	feat_recon_loss=0.212719	total_loss=16.653517
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:06.622109
+acc=0.057841	ha=0.898296	exam_f1=0.515364, macro_f1=0.377955, micro_f1=0.558595
+nll_loss=4.681779	c_loss=0.000000
+kl_loss=0.004452	total_loss=16.816929
+**********************************************
+--------------------------------
+epoch 19 starts!
+step=1400  2023-05-15T10:04:06.782110
+macro_f1=0.226402, micro_f1=0.464922
+nll_loss=4.442297	nll_loss_x=4.675527
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008864	cpc_loss=2.602274
+latent_cpc_loss=5.541903	feat_recon_loss=0.213165	total_loss=16.593582
+
+step=1440  2023-05-15T10:04:07.253842
+macro_f1=0.231152, micro_f1=0.474066
+nll_loss=4.472636	nll_loss_x=4.707139
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008021	cpc_loss=2.675735
+latent_cpc_loss=5.541515	feat_recon_loss=0.211005	total_loss=16.650997
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:08.369556
+acc=0.066802	ha=0.898810	exam_f1=0.518246, macro_f1=0.387210, micro_f1=0.561298
+nll_loss=4.658480	c_loss=0.000000
+kl_loss=0.005302	total_loss=16.759567
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 20 starts!
+step=1480  2023-05-15T10:04:08.585525
+macro_f1=0.239392, micro_f1=0.483111
+nll_loss=4.423061	nll_loss_x=4.668300
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009104	cpc_loss=2.663759
+latent_cpc_loss=5.541507	feat_recon_loss=0.209539	total_loss=16.513311
+
+step=1520  2023-05-15T10:04:09.060865
+macro_f1=0.227343, micro_f1=0.467666
+nll_loss=4.426849	nll_loss_x=4.673063
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007700	cpc_loss=2.733450
+latent_cpc_loss=5.541513	feat_recon_loss=0.208635	total_loss=16.530058
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:10.157856
+acc=0.063951	ha=0.899464	exam_f1=0.520338, macro_f1=0.393979, micro_f1=0.565179
+nll_loss=4.633989	c_loss=0.000000
+kl_loss=0.009870	total_loss=16.724974
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 21 starts!
+step=1560  2023-05-15T10:04:10.423606
+macro_f1=0.239755, micro_f1=0.476765
+nll_loss=4.400997	nll_loss_x=4.644893
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006353	cpc_loss=2.680243
+latent_cpc_loss=5.541759	feat_recon_loss=0.207250	total_loss=16.434799
+
+step=1600  2023-05-15T10:04:10.904932
+macro_f1=0.232521, micro_f1=0.476239
+nll_loss=4.451531	nll_loss_x=4.693300
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005793	cpc_loss=2.676536
+latent_cpc_loss=5.541806	feat_recon_loss=0.206246	total_loss=16.598190
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:11.968518
+acc=0.070876	ha=0.899828	exam_f1=0.518691, macro_f1=0.393967, micro_f1=0.563377
+nll_loss=4.629040	c_loss=0.000000
+kl_loss=0.011276	total_loss=16.718971
+**********************************************
+--------------------------------
+epoch 22 starts!
+step=1640  2023-05-15T10:04:12.246573
+macro_f1=0.245640, micro_f1=0.488438
+nll_loss=4.359258	nll_loss_x=4.589409
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007346	cpc_loss=2.663487
+latent_cpc_loss=5.541679	feat_recon_loss=0.205294	total_loss=16.250008
+
+step=1680  2023-05-15T10:04:12.730441
+macro_f1=0.241988, micro_f1=0.483676
+nll_loss=4.385938	nll_loss_x=4.631034
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009078	cpc_loss=2.597624
+latent_cpc_loss=5.541473	feat_recon_loss=0.204656	total_loss=16.390303
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:13.759531
+acc=0.071690	ha=0.899732	exam_f1=0.521446, macro_f1=0.400550, micro_f1=0.564969
+nll_loss=4.626101	c_loss=0.000000
+kl_loss=0.004889	total_loss=16.660419
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 23 starts!
+step=1720  2023-05-15T10:04:14.097213
+macro_f1=0.249571, micro_f1=0.490846
+nll_loss=4.356980	nll_loss_x=4.608455
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.004285	cpc_loss=2.865080
+latent_cpc_loss=5.541472	feat_recon_loss=0.204285	total_loss=16.292036
+
+step=1760  2023-05-15T10:04:14.564190
+macro_f1=0.251265, micro_f1=0.495375
+nll_loss=4.307935	nll_loss_x=4.539500
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007157	cpc_loss=2.526910
+latent_cpc_loss=5.541636	feat_recon_loss=0.202770	total_loss=16.100283
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:15.554090
+acc=0.067617	ha=0.900397	exam_f1=0.523449, macro_f1=0.401302, micro_f1=0.567445
+nll_loss=4.601843	c_loss=0.000000
+kl_loss=0.004730	total_loss=16.589375
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 24 starts!
+step=1800  2023-05-15T10:04:15.942499
+macro_f1=0.252719, micro_f1=0.498843
+nll_loss=4.350973	nll_loss_x=4.600148
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006812	cpc_loss=2.703780
+latent_cpc_loss=5.541664	feat_recon_loss=0.202589	total_loss=16.256832
+
+step=1840  2023-05-15T10:04:16.463243
+macro_f1=0.257722, micro_f1=0.498612
+nll_loss=4.297377	nll_loss_x=4.533954
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006497	cpc_loss=2.681242
+latent_cpc_loss=5.541502	feat_recon_loss=0.201647	total_loss=16.078482
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:17.429169
+acc=0.068432	ha=0.900536	exam_f1=0.521194, macro_f1=0.400349, micro_f1=0.564887
+nll_loss=4.608540	c_loss=0.000000
+kl_loss=0.001835	total_loss=16.585999
+**********************************************
+--------------------------------
+epoch 25 starts!
+step=1880  2023-05-15T10:04:17.849596
+macro_f1=0.251693, micro_f1=0.499691
+nll_loss=4.336683	nll_loss_x=4.591136
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005012	cpc_loss=2.590913
+latent_cpc_loss=5.541575	feat_recon_loss=0.200815	total_loss=16.220167
+
+step=1920  2023-05-15T10:04:18.376555
+macro_f1=0.255788, micro_f1=0.498054
+nll_loss=4.303472	nll_loss_x=4.544283
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008866	cpc_loss=2.629096
+latent_cpc_loss=5.541361	feat_recon_loss=0.200239	total_loss=16.122524
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:19.305666
+acc=0.073320	ha=0.900429	exam_f1=0.524058, macro_f1=0.404992, micro_f1=0.567371
+nll_loss=4.600431	c_loss=0.000000
+kl_loss=0.007136	total_loss=16.606556
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 26 starts!
+step=1960  2023-05-15T10:04:19.801211
+macro_f1=0.258932, micro_f1=0.501520
+nll_loss=4.273867	nll_loss_x=4.507115
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003914	cpc_loss=2.693600
+latent_cpc_loss=5.541470	feat_recon_loss=0.199550	total_loss=15.977114
+
+step=2000  2023-05-15T10:04:20.328766
+macro_f1=0.262185, micro_f1=0.505358
+nll_loss=4.300514	nll_loss_x=4.522855
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005472	cpc_loss=2.624450
+latent_cpc_loss=5.541479	feat_recon_loss=0.198712	total_loss=16.039152
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:21.205690
+acc=0.073727	ha=0.899946	exam_f1=0.521949, macro_f1=0.404820, micro_f1=0.564082
+nll_loss=4.626681	c_loss=0.000000
+kl_loss=0.003181	total_loss=16.643726
+**********************************************
+--------------------------------
+epoch 27 starts!
+step=2040  2023-05-15T10:04:21.694939
+macro_f1=0.269071, micro_f1=0.511008
+nll_loss=4.278654	nll_loss_x=4.500680
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006154	cpc_loss=2.680792
+latent_cpc_loss=5.541405	feat_recon_loss=0.199095	total_loss=15.982314
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:23.035890
+acc=0.070468	ha=0.900439	exam_f1=0.527619, macro_f1=0.406112, micro_f1=0.570676
+nll_loss=4.581586	c_loss=0.000000
+kl_loss=0.007043	total_loss=16.530130
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 28 starts!
+step=2080  2023-05-15T10:04:23.082648
+macro_f1=0.261137, micro_f1=0.506805
+nll_loss=4.249324	nll_loss_x=4.473693
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003758	cpc_loss=2.589878
+latent_cpc_loss=5.541367	feat_recon_loss=0.198416	total_loss=15.850955
+
+step=2120  2023-05-15T10:04:23.598601
+macro_f1=0.265290, micro_f1=0.506662
+nll_loss=4.248932	nll_loss_x=4.492446
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006142	cpc_loss=2.627164
+latent_cpc_loss=5.541433	feat_recon_loss=0.197941	total_loss=15.906570
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:24.904349
+acc=0.067210	ha=0.900965	exam_f1=0.524509, macro_f1=0.407747, micro_f1=0.568651
+nll_loss=4.579225	c_loss=0.000000
+kl_loss=0.005356	total_loss=16.515884
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 29 starts!
+step=2160  2023-05-15T10:04:24.986807
+macro_f1=0.272307, micro_f1=0.519276
+nll_loss=4.240672	nll_loss_x=4.444917
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003774	cpc_loss=2.782013
+latent_cpc_loss=5.541443	feat_recon_loss=0.197399	total_loss=15.806937
+
+step=2200  2023-05-15T10:04:25.507669
+macro_f1=0.280023, micro_f1=0.523729
+nll_loss=4.209436	nll_loss_x=4.415079
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006305	cpc_loss=2.551570
+latent_cpc_loss=5.541477	feat_recon_loss=0.196605	total_loss=15.709543
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:26.776850
+acc=0.074949	ha=0.899871	exam_f1=0.526579, macro_f1=0.407764, micro_f1=0.570094
+nll_loss=4.590650	c_loss=0.000000
+kl_loss=0.004973	total_loss=16.553812
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 30 starts!
+step=2240  2023-05-15T10:04:26.897265
+macro_f1=0.265466, micro_f1=0.509772
+nll_loss=4.262388	nll_loss_x=4.488228
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005101	cpc_loss=2.810019
+latent_cpc_loss=5.541466	feat_recon_loss=0.196787	total_loss=15.924706
+
+step=2280  2023-05-15T10:04:27.423405
+macro_f1=0.279097, micro_f1=0.521254
+nll_loss=4.195374	nll_loss_x=4.410632
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002193	cpc_loss=2.704684
+latent_cpc_loss=5.541532	feat_recon_loss=0.196640	total_loss=15.659720
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:28.661926
+acc=0.074134	ha=0.900450	exam_f1=0.525372, macro_f1=0.406563, micro_f1=0.567784
+nll_loss=4.594111	c_loss=0.000000
+kl_loss=0.006648	total_loss=16.574732
+**********************************************
+--------------------------------
+epoch 31 starts!
+step=2320  2023-05-15T10:04:28.789753
+macro_f1=0.274604, micro_f1=0.521677
+nll_loss=4.155155	nll_loss_x=4.363981
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006160	cpc_loss=2.575347
+latent_cpc_loss=5.541390	feat_recon_loss=0.195968	total_loss=15.542777
+
+step=2360  2023-05-15T10:04:29.306237
+macro_f1=0.280428, micro_f1=0.524442
+nll_loss=4.219942	nll_loss_x=4.421258
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005886	cpc_loss=2.521555
+latent_cpc_loss=5.541418	feat_recon_loss=0.195771	total_loss=15.749167
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:30.504947
+acc=0.073320	ha=0.901008	exam_f1=0.527168, macro_f1=0.409584, micro_f1=0.572583
+nll_loss=4.559142	c_loss=0.000000
+kl_loss=0.001442	total_loss=16.444469
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 32 starts!
+step=2400  2023-05-15T10:04:30.700162
+macro_f1=0.289269, micro_f1=0.541193
+nll_loss=4.141950	nll_loss_x=4.346817
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.004103	cpc_loss=2.523110
+latent_cpc_loss=5.541357	feat_recon_loss=0.196084	total_loss=15.470741
+
+step=2440  2023-05-15T10:04:31.223469
+macro_f1=0.285363, micro_f1=0.533231
+nll_loss=4.127155	nll_loss_x=4.323221
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002661	cpc_loss=2.467624
+latent_cpc_loss=5.541352	feat_recon_loss=0.195309	total_loss=15.393550
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:32.379560
+acc=0.073727	ha=0.900868	exam_f1=0.532081, macro_f1=0.413298, micro_f1=0.574914
+nll_loss=4.561422	c_loss=0.000000
+kl_loss=0.003884	total_loss=16.453888
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 33 starts!
+step=2480  2023-05-15T10:04:32.649447
+macro_f1=0.290583, micro_f1=0.530776
+nll_loss=4.216220	nll_loss_x=4.405679
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003626	cpc_loss=2.760731
+latent_cpc_loss=5.541336	feat_recon_loss=0.195298	total_loss=15.701427
+
+step=2520  2023-05-15T10:04:33.174682
+macro_f1=0.285324, micro_f1=0.534313
+nll_loss=4.157648	nll_loss_x=4.338151
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003543	cpc_loss=2.707064
+latent_cpc_loss=5.541403	feat_recon_loss=0.195077	total_loss=15.461413
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:34.302058
+acc=0.074949	ha=0.901286	exam_f1=0.529339, macro_f1=0.410557, micro_f1=0.573306
+nll_loss=4.561407	c_loss=0.000000
+kl_loss=0.002906	total_loss=16.458813
+**********************************************
+--------------------------------
+epoch 34 starts!
+step=2560  2023-05-15T10:04:34.546914
+macro_f1=0.294206, micro_f1=0.538207
+nll_loss=4.160446	nll_loss_x=4.336082
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003768	cpc_loss=2.511029
+latent_cpc_loss=5.541341	feat_recon_loss=0.195237	total_loss=15.495798
+
+step=2600  2023-05-15T10:04:35.068368
+macro_f1=0.300497, micro_f1=0.546219
+nll_loss=4.103095	nll_loss_x=4.276661
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003319	cpc_loss=2.544497
+latent_cpc_loss=5.541370	feat_recon_loss=0.194936	total_loss=15.267598
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:36.159044
+acc=0.076578	ha=0.900836	exam_f1=0.529743, macro_f1=0.411781, micro_f1=0.574140
+nll_loss=4.552666	c_loss=0.000000
+kl_loss=0.001483	total_loss=16.424835
+**********************************************
+--------------------------------
+epoch 35 starts!
+step=2640  2023-05-15T10:04:36.445083
+macro_f1=0.298503, micro_f1=0.540931
+nll_loss=4.096770	nll_loss_x=4.271170
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002998	cpc_loss=2.560396
+latent_cpc_loss=5.541388	feat_recon_loss=0.194780	total_loss=15.256171
+
+step=2680  2023-05-15T10:04:36.968297
+macro_f1=0.304544, micro_f1=0.543425
+nll_loss=4.155685	nll_loss_x=4.330805
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002564	cpc_loss=2.595675
+latent_cpc_loss=5.541333	feat_recon_loss=0.194288	total_loss=15.441348
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:38.015154
+acc=0.074134	ha=0.900729	exam_f1=0.530609, macro_f1=0.412432, micro_f1=0.573429
+nll_loss=4.553985	c_loss=0.000000
+kl_loss=0.005817	total_loss=16.449358
+**********************************************
+--------------------------------
+epoch 36 starts!
+step=2720  2023-05-15T10:04:38.339645
+macro_f1=0.302363, micro_f1=0.549086
+nll_loss=4.112915	nll_loss_x=4.280389
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003407	cpc_loss=2.556004
+latent_cpc_loss=5.541350	feat_recon_loss=0.194808	total_loss=15.282412
+
+step=2760  2023-05-15T10:04:38.866487
+macro_f1=0.303886, micro_f1=0.550077
+nll_loss=4.087504	nll_loss_x=4.253479
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002289	cpc_loss=2.621336
+latent_cpc_loss=5.541350	feat_recon_loss=0.194477	total_loss=15.226933
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:39.876299
+acc=0.079430	ha=0.901329	exam_f1=0.531742, macro_f1=0.414154, micro_f1=0.574922
+nll_loss=4.555054	c_loss=0.000000
+kl_loss=0.002764	total_loss=16.437521
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 37 starts!
+step=2800  2023-05-15T10:04:40.275713
+macro_f1=0.301051, micro_f1=0.546136
+nll_loss=4.101240	nll_loss_x=4.270677
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003940	cpc_loss=2.594749
+latent_cpc_loss=5.541413	feat_recon_loss=0.193918	total_loss=15.257660
+
+step=2840  2023-05-15T10:04:40.799933
+macro_f1=0.306595, micro_f1=0.554741
+nll_loss=4.017579	nll_loss_x=4.172056
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001710	cpc_loss=2.652649
+latent_cpc_loss=5.541338	feat_recon_loss=0.193857	total_loss=14.940084
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:41.777507
+acc=0.076578	ha=0.901533	exam_f1=0.529515, macro_f1=0.411237, micro_f1=0.573980
+nll_loss=4.546599	c_loss=0.000000
+kl_loss=0.002630	total_loss=16.424463
+**********************************************
+--------------------------------
+epoch 38 starts!
+step=2880  2023-05-15T10:04:42.173860
+macro_f1=0.303018, micro_f1=0.548295
+nll_loss=4.160868	nll_loss_x=4.319170
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003990	cpc_loss=2.731504
+latent_cpc_loss=5.541350	feat_recon_loss=0.194200	total_loss=15.426638
+
+step=2920  2023-05-15T10:04:42.697221
+macro_f1=0.322784, micro_f1=0.566689
+nll_loss=4.042038	nll_loss_x=4.183799
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003309	cpc_loss=2.402329
+latent_cpc_loss=5.541326	feat_recon_loss=0.194134	total_loss=15.016726
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:43.635872
+acc=0.079022	ha=0.901276	exam_f1=0.533391, macro_f1=0.415769, micro_f1=0.576308
+nll_loss=4.552191	c_loss=0.000000
+kl_loss=0.004996	total_loss=16.438444
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 39 starts!
+step=2960  2023-05-15T10:04:44.097165
+macro_f1=0.315026, micro_f1=0.562781
+nll_loss=3.986953	nll_loss_x=4.130890
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003193	cpc_loss=2.438786
+latent_cpc_loss=5.541330	feat_recon_loss=0.194071	total_loss=14.832964
+
+step=3000  2023-05-15T10:04:44.614164
+macro_f1=0.314990, micro_f1=0.556705
+nll_loss=4.116019	nll_loss_x=4.259522
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001818	cpc_loss=2.490000
+latent_cpc_loss=5.541309	feat_recon_loss=0.194008	total_loss=15.225789
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:45.512248
+acc=0.077800	ha=0.901190	exam_f1=0.533319, macro_f1=0.417019, micro_f1=0.576928
+nll_loss=4.540504	c_loss=0.000000
+kl_loss=0.001872	total_loss=16.390060
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 40 starts!
+step=3040  2023-05-15T10:04:46.016031
+macro_f1=0.312393, micro_f1=0.559306
+nll_loss=4.009304	nll_loss_x=4.147642
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001521	cpc_loss=2.576097
+latent_cpc_loss=5.541354	feat_recon_loss=0.193942	total_loss=14.883086
+
+step=3080  2023-05-15T10:04:46.535686
+macro_f1=0.318723, micro_f1=0.564074
+nll_loss=4.065462	nll_loss_x=4.202803
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003767	cpc_loss=2.529723
+latent_cpc_loss=5.220428	feat_recon_loss=0.193769	total_loss=15.073247
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:47.387269
+acc=0.077800	ha=0.901115	exam_f1=0.531884, macro_f1=0.415854, micro_f1=0.575873
+nll_loss=4.547904	c_loss=0.000000
+kl_loss=0.002097	total_loss=16.410004
+**********************************************
+--------------------------------
+epoch 41 starts!
+step=3120  2023-05-15T10:04:47.905607
+macro_f1=0.320768, micro_f1=0.569119
+nll_loss=4.013881	nll_loss_x=4.144077
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002451	cpc_loss=2.696056
+latent_cpc_loss=5.541292	feat_recon_loss=0.193568	total_loss=14.884353
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:49.240762
+acc=0.080244	ha=0.901394	exam_f1=0.532525, macro_f1=0.417699, micro_f1=0.575179
+nll_loss=4.552655	c_loss=0.000000
+kl_loss=0.002354	total_loss=16.427938
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 42 starts!
+step=3160  2023-05-15T10:04:49.309759
+macro_f1=0.319660, micro_f1=0.560396
+nll_loss=4.055214	nll_loss_x=4.186459
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001163	cpc_loss=2.509687
+latent_cpc_loss=5.541274	feat_recon_loss=0.193454	total_loss=15.012700
+
+step=3200  2023-05-15T10:04:49.823985
+macro_f1=0.326173, micro_f1=0.568336
+nll_loss=4.013566	nll_loss_x=4.135348
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000884	cpc_loss=2.602124
+latent_cpc_loss=5.541314	feat_recon_loss=0.193323	total_loss=14.856606
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:51.116505
+acc=0.080652	ha=0.901168	exam_f1=0.531896, macro_f1=0.418658, micro_f1=0.574871
+nll_loss=4.551665	c_loss=0.000000
+kl_loss=0.001056	total_loss=16.417196
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 43 starts!
+step=3240  2023-05-15T10:04:51.221813
+macro_f1=0.326164, micro_f1=0.570436
+nll_loss=4.016430	nll_loss_x=4.125147
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000933	cpc_loss=2.614439
+latent_cpc_loss=5.541247	feat_recon_loss=0.193470	total_loss=14.839655
+
+step=3280  2023-05-15T10:04:51.751258
+macro_f1=0.327397, micro_f1=0.573237
+nll_loss=3.996752	nll_loss_x=4.105278
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001340	cpc_loss=2.589032
+latent_cpc_loss=5.541302	feat_recon_loss=0.193333	total_loss=14.789327
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:53.015628
+acc=0.081059	ha=0.901318	exam_f1=0.533361, macro_f1=0.416056, micro_f1=0.575316
+nll_loss=4.541425	c_loss=0.000000
+kl_loss=0.001070	total_loss=16.389700
+**********************************************
+--------------------------------
+epoch 44 starts!
+step=3320  2023-05-15T10:04:53.140939
+macro_f1=0.327695, micro_f1=0.570199
+nll_loss=3.986672	nll_loss_x=4.110011
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001522	cpc_loss=2.544589
+latent_cpc_loss=5.541294	feat_recon_loss=0.193420	total_loss=14.750539
+
+step=3360  2023-05-15T10:04:53.664254
+macro_f1=0.333984, micro_f1=0.576924
+nll_loss=4.018863	nll_loss_x=4.108768
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000902	cpc_loss=2.494635
+latent_cpc_loss=5.541311	feat_recon_loss=0.193240	total_loss=14.820174
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:54.881317
+acc=0.077393	ha=0.901083	exam_f1=0.532849, macro_f1=0.416296, micro_f1=0.574876
+nll_loss=4.549445	c_loss=0.000000
+kl_loss=0.003481	total_loss=16.426600
+**********************************************
+--------------------------------
+epoch 45 starts!
+step=3400  2023-05-15T10:04:55.033367
+macro_f1=0.329321, micro_f1=0.575458
+nll_loss=4.001663	nll_loss_x=4.105804
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000853	cpc_loss=2.620737
+latent_cpc_loss=5.541312	feat_recon_loss=0.193306	total_loss=14.785524
+
+step=3440  2023-05-15T10:04:55.562282
+macro_f1=0.337497, micro_f1=0.582825
+nll_loss=3.970387	nll_loss_x=4.070154
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002557	cpc_loss=2.555281
+latent_cpc_loss=5.541293	feat_recon_loss=0.193337	total_loss=14.679214
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:56.746302
+acc=0.079022	ha=0.901018	exam_f1=0.531707, macro_f1=0.418385, micro_f1=0.576698
+nll_loss=4.542175	c_loss=0.000000
+kl_loss=0.000347	total_loss=16.388729
+**********************************************
+--------------------------------
+epoch 46 starts!
+step=3480  2023-05-15T10:04:56.948224
+macro_f1=0.334590, micro_f1=0.578222
+nll_loss=3.989341	nll_loss_x=4.080680
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.003211	cpc_loss=2.488713
+latent_cpc_loss=5.541281	feat_recon_loss=0.193408	total_loss=14.736960
+
+step=3520  2023-05-15T10:04:57.475980
+macro_f1=0.333473, micro_f1=0.582462
+nll_loss=3.970834	nll_loss_x=4.062999
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.002207	cpc_loss=2.659982
+latent_cpc_loss=5.541276	feat_recon_loss=0.193187	total_loss=14.667140
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:04:58.615970
+acc=0.079837	ha=0.901340	exam_f1=0.534324, macro_f1=0.417057, micro_f1=0.577343
+nll_loss=4.538797	c_loss=0.000000
+kl_loss=0.000778	total_loss=16.383507
+**********************************************
+--------------------------------
+epoch 47 starts!
+step=3560  2023-05-15T10:04:58.846576
+macro_f1=0.330685, micro_f1=0.577197
+nll_loss=3.993702	nll_loss_x=4.078674
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000564	cpc_loss=2.633561
+latent_cpc_loss=5.541276	feat_recon_loss=0.193045	total_loss=14.707759
+
+step=3600  2023-05-15T10:04:59.370294
+macro_f1=0.344210, micro_f1=0.583495
+nll_loss=3.951909	nll_loss_x=4.054893
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000410	cpc_loss=2.579634
+latent_cpc_loss=5.541280	feat_recon_loss=0.193063	total_loss=14.595642
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:00.471057
+acc=0.078615	ha=0.901201	exam_f1=0.533011, macro_f1=0.419758, micro_f1=0.576177
+nll_loss=4.537796	c_loss=0.000000
+kl_loss=0.001059	total_loss=16.382708
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 48 starts!
+step=3640  2023-05-15T10:05:00.770458
+macro_f1=0.335494, micro_f1=0.583565
+nll_loss=3.969098	nll_loss_x=4.051039
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001654	cpc_loss=2.500474
+latent_cpc_loss=5.541292	feat_recon_loss=0.193013	total_loss=14.643244
+
+step=3680  2023-05-15T10:05:01.292345
+macro_f1=0.338030, micro_f1=0.581131
+nll_loss=3.956991	nll_loss_x=4.050317
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001388	cpc_loss=2.510348
+latent_cpc_loss=5.541281	feat_recon_loss=0.192911	total_loss=14.594193
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:02.354208
+acc=0.080244	ha=0.901426	exam_f1=0.534229, macro_f1=0.418342, micro_f1=0.576311
+nll_loss=4.539486	c_loss=0.000000
+kl_loss=-0.000250	total_loss=16.380743
+**********************************************
+--------------------------------
+epoch 49 starts!
+step=3720  2023-05-15T10:05:02.668926
+macro_f1=0.344864, micro_f1=0.582968
+nll_loss=3.970186	nll_loss_x=4.060662
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.001348	cpc_loss=2.607512
+latent_cpc_loss=5.541277	feat_recon_loss=0.192844	total_loss=14.643603
+
+step=3760  2023-05-15T10:05:03.191452
+macro_f1=0.339993, micro_f1=0.585008
+nll_loss=3.954077	nll_loss_x=4.031083
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000335	cpc_loss=2.529953
+latent_cpc_loss=5.541286	feat_recon_loss=0.192709	total_loss=14.568923
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:04.210866
+acc=0.078615	ha=0.901479	exam_f1=0.535578, macro_f1=0.421670, micro_f1=0.578355
+nll_loss=4.537803	c_loss=0.000000
+kl_loss=0.002575	total_loss=16.391417
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 50 starts!
+step=3800  2023-05-15T10:05:04.586734
+macro_f1=0.344471, micro_f1=0.591155
+nll_loss=3.892731	nll_loss_x=3.970680
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=-0.000094	cpc_loss=2.491883
+latent_cpc_loss=5.541287	feat_recon_loss=0.192686	total_loss=14.365447
+
+step=3840  2023-05-15T10:05:05.107312
+macro_f1=0.343355, micro_f1=0.588223
+nll_loss=3.974387	nll_loss_x=4.061771
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.000269	cpc_loss=2.475063
+latent_cpc_loss=5.541298	feat_recon_loss=0.192672	total_loss=14.650336
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:06.093866
+acc=0.081059	ha=0.901415	exam_f1=0.535204, macro_f1=0.419452, micro_f1=0.576402
+nll_loss=4.538419	c_loss=0.000000
+kl_loss=0.001226	total_loss=16.385168
+**********************************************
+--------------------------------
+epoch 51 starts!
+step=3880  2023-05-15T10:05:06.475338
+macro_f1=0.313694, micro_f1=0.550589
+nll_loss=3.985564	nll_loss_x=4.254234
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.005169	cpc_loss=2.429966
+latent_cpc_loss=5.541745	feat_recon_loss=0.192640	total_loss=15.108638
+
+step=3920  2023-05-15T10:05:07.004226
+macro_f1=0.289240, micro_f1=0.519940
+nll_loss=4.020203	nll_loss_x=4.446758
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007210	cpc_loss=2.710402
+latent_cpc_loss=5.542048	feat_recon_loss=0.194218	total_loss=15.553931
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:07.949746
+acc=0.075356	ha=0.901211	exam_f1=0.533975, macro_f1=0.415510, micro_f1=0.577095
+nll_loss=4.528106	c_loss=0.000000
+kl_loss=0.008660	total_loss=16.387894
+**********************************************
+--------------------------------
+epoch 52 starts!
+step=3960  2023-05-15T10:05:08.378245
+macro_f1=0.287181, micro_f1=0.527367
+nll_loss=4.005946	nll_loss_x=4.412158
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.012480	cpc_loss=2.740855
+latent_cpc_loss=5.542697	feat_recon_loss=0.193306	total_loss=15.502767
+
+step=4000  2023-05-15T10:05:08.900118
+macro_f1=0.287784, micro_f1=0.520855
+nll_loss=3.993469	nll_loss_x=4.396610
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.011725	cpc_loss=2.575863
+latent_cpc_loss=5.541719	feat_recon_loss=0.193561	total_loss=15.480441
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:09.808061
+acc=0.081059	ha=0.901297	exam_f1=0.534435, macro_f1=0.427347, micro_f1=0.576663
+nll_loss=4.546768	c_loss=0.000000
+kl_loss=0.006518	total_loss=16.448988
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 53 starts!
+step=4040  2023-05-15T10:05:10.299783
+macro_f1=0.292133, micro_f1=0.532556
+nll_loss=3.915138	nll_loss_x=4.351186
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009620	cpc_loss=2.638235
+latent_cpc_loss=5.541795	feat_recon_loss=0.192967	total_loss=15.252527
+
+step=4080  2023-05-15T10:05:10.819918
+macro_f1=0.288872, micro_f1=0.523492
+nll_loss=3.993891	nll_loss_x=4.432912
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010207	cpc_loss=2.545031
+latent_cpc_loss=5.541703	feat_recon_loss=0.193095	total_loss=15.530704
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:11.685824
+acc=0.085540	ha=0.901308	exam_f1=0.536413, macro_f1=0.420848, micro_f1=0.579395
+nll_loss=4.527798	c_loss=0.000000
+kl_loss=0.006587	total_loss=16.391609
+**********************************************
+--------------------------------
+epoch 54 starts!
+step=4120  2023-05-15T10:05:12.193413
+macro_f1=0.290844, micro_f1=0.522322
+nll_loss=3.986041	nll_loss_x=4.441217
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007431	cpc_loss=2.620294
+latent_cpc_loss=5.542336	feat_recon_loss=0.193520	total_loss=15.503819
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:13.534583
+acc=0.076578	ha=0.901597	exam_f1=0.534727, macro_f1=0.424382, micro_f1=0.577628
+nll_loss=4.532452	c_loss=0.000000
+kl_loss=0.008552	total_loss=16.397478
+**********************************************
+--------------------------------
+epoch 55 starts!
+step=4160  2023-05-15T10:05:13.565786
+macro_f1=0.287090, micro_f1=0.526633
+nll_loss=3.900162	nll_loss_x=4.335617
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008767	cpc_loss=2.614284
+latent_cpc_loss=5.541957	feat_recon_loss=0.192402	total_loss=15.213399
+
+step=4200  2023-05-15T10:05:14.082136
+macro_f1=0.295796, micro_f1=0.532366
+nll_loss=3.910641	nll_loss_x=4.343771
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009813	cpc_loss=2.579019
+latent_cpc_loss=5.541749	feat_recon_loss=0.192471	total_loss=15.258151
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:15.405197
+acc=0.076171	ha=0.901812	exam_f1=0.533191, macro_f1=0.427056, micro_f1=0.576760
+nll_loss=4.538517	c_loss=0.000000
+kl_loss=0.005657	total_loss=16.400106
+**********************************************
+--------------------------------
+epoch 56 starts!
+step=4240  2023-05-15T10:05:15.474469
+macro_f1=0.287430, micro_f1=0.523156
+nll_loss=3.918303	nll_loss_x=4.394252
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007953	cpc_loss=2.615554
+latent_cpc_loss=5.541924	feat_recon_loss=0.193557	total_loss=15.333190
+
+step=4280  2023-05-15T10:05:16.006319
+macro_f1=0.296509, micro_f1=0.535606
+nll_loss=3.877343	nll_loss_x=4.321678
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008724	cpc_loss=2.518905
+latent_cpc_loss=5.541870	feat_recon_loss=0.192171	total_loss=15.152031
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:17.295506
+acc=0.077800	ha=0.901651	exam_f1=0.534876, macro_f1=0.425437, micro_f1=0.580200
+nll_loss=4.523887	c_loss=0.000000
+kl_loss=0.009493	total_loss=16.405045
+**********************************************
+--------------------------------
+epoch 57 starts!
+step=4320  2023-05-15T10:05:17.400455
+macro_f1=0.292770, micro_f1=0.528361
+nll_loss=3.899658	nll_loss_x=4.368324
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010311	cpc_loss=2.396958
+latent_cpc_loss=5.541868	feat_recon_loss=0.191300	total_loss=15.290732
+
+step=4360  2023-05-15T10:05:17.922050
+macro_f1=0.306956, micro_f1=0.542111
+nll_loss=3.876704	nll_loss_x=4.330655
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.011651	cpc_loss=2.534754
+latent_cpc_loss=5.541520	feat_recon_loss=0.190225	total_loss=15.195000
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:19.169919
+acc=0.078208	ha=0.900975	exam_f1=0.532134, macro_f1=0.418520, micro_f1=0.575220
+nll_loss=4.545792	c_loss=0.000000
+kl_loss=0.005995	total_loss=16.428354
+**********************************************
+--------------------------------
+epoch 58 starts!
+step=4400  2023-05-15T10:05:19.315792
+macro_f1=0.292785, micro_f1=0.532137
+nll_loss=3.866819	nll_loss_x=4.340954
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010927	cpc_loss=2.417182
+latent_cpc_loss=5.541837	feat_recon_loss=0.191065	total_loss=15.174561
+
+step=4440  2023-05-15T10:05:19.836449
+macro_f1=0.314316, micro_f1=0.543391
+nll_loss=3.836096	nll_loss_x=4.315108
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008458	cpc_loss=2.592396
+latent_cpc_loss=5.542048	feat_recon_loss=0.190580	total_loss=15.083781
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:21.030844
+acc=0.084725	ha=0.901201	exam_f1=0.536555, macro_f1=0.428761, micro_f1=0.580564
+nll_loss=4.518894	c_loss=0.000000
+kl_loss=0.008421	total_loss=16.366713
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 59 starts!
+step=4480  2023-05-15T10:05:21.237291
+macro_f1=0.293961, micro_f1=0.526522
+nll_loss=3.821677	nll_loss_x=4.307666
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.011947	cpc_loss=2.586875
+latent_cpc_loss=5.541798	feat_recon_loss=0.191309	total_loss=15.073674
+
+step=4520  2023-05-15T10:05:21.755068
+macro_f1=0.307675, micro_f1=0.549866
+nll_loss=3.881662	nll_loss_x=4.337127
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009807	cpc_loss=2.520301
+latent_cpc_loss=5.541743	feat_recon_loss=0.190938	total_loss=15.191703
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:22.897458
+acc=0.085132	ha=0.901779	exam_f1=0.537594, macro_f1=0.430571, micro_f1=0.581429
+nll_loss=4.525027	c_loss=0.000000
+kl_loss=0.015171	total_loss=16.433716
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 60 starts!
+step=4560  2023-05-15T10:05:23.139066
+macro_f1=0.304882, micro_f1=0.538651
+nll_loss=3.775532	nll_loss_x=4.269186
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010827	cpc_loss=2.565136
+latent_cpc_loss=5.541623	feat_recon_loss=0.189885	total_loss=14.951777
+
+step=4600  2023-05-15T10:05:23.654542
+macro_f1=0.303936, micro_f1=0.542385
+nll_loss=3.794415	nll_loss_x=4.276505
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009950	cpc_loss=2.414508
+latent_cpc_loss=5.541671	feat_recon_loss=0.190617	total_loss=15.004137
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:24.758427
+acc=0.087984	ha=0.901887	exam_f1=0.535830, macro_f1=0.425039, micro_f1=0.581098
+nll_loss=4.523444	c_loss=0.000000
+kl_loss=0.013159	total_loss=16.431612
+**********************************************
+--------------------------------
+epoch 61 starts!
+step=4640  2023-05-15T10:05:25.007106
+macro_f1=0.325646, micro_f1=0.553318
+nll_loss=3.745422	nll_loss_x=4.230072
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009207	cpc_loss=2.505611
+latent_cpc_loss=5.541964	feat_recon_loss=0.190441	total_loss=14.819910
+
+step=4680  2023-05-15T10:05:25.511580
+macro_f1=0.306532, micro_f1=0.545452
+nll_loss=3.803366	nll_loss_x=4.305913
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009575	cpc_loss=2.572957
+latent_cpc_loss=5.541908	feat_recon_loss=0.190031	total_loss=15.062972
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:26.579942
+acc=0.084725	ha=0.901747	exam_f1=0.537461, macro_f1=0.429883, micro_f1=0.580648
+nll_loss=4.528691	c_loss=0.000000
+kl_loss=0.010300	total_loss=16.421633
+**********************************************
+--------------------------------
+epoch 62 starts!
+step=4720  2023-05-15T10:05:26.869852
+macro_f1=0.312305, micro_f1=0.543678
+nll_loss=3.763035	nll_loss_x=4.282510
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007151	cpc_loss=2.479578
+latent_cpc_loss=5.542109	feat_recon_loss=0.191206	total_loss=14.919362
+
+step=4760  2023-05-15T10:05:27.380929
+macro_f1=0.309516, micro_f1=0.546070
+nll_loss=3.758911	nll_loss_x=4.264311
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.011224	cpc_loss=2.525077
+latent_cpc_loss=5.541624	feat_recon_loss=0.190932	total_loss=14.892665
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:28.412569
+acc=0.082281	ha=0.902348	exam_f1=0.538544, macro_f1=0.427746, micro_f1=0.581107
+nll_loss=4.520638	c_loss=0.000000
+kl_loss=0.014374	total_loss=16.430128
+**********************************************
+--------------------------------
+epoch 63 starts!
+step=4800  2023-05-15T10:05:28.739523
+macro_f1=0.322217, micro_f1=0.553233
+nll_loss=3.707102	nll_loss_x=4.214327
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008510	cpc_loss=2.555600
+latent_cpc_loss=5.541882	feat_recon_loss=0.190308	total_loss=14.750374
+
+step=4840  2023-05-15T10:05:29.250996
+macro_f1=0.310904, micro_f1=0.547804
+nll_loss=3.738354	nll_loss_x=4.268777
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009275	cpc_loss=2.533337
+latent_cpc_loss=5.541916	feat_recon_loss=0.191171	total_loss=14.867742
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:30.250272
+acc=0.084725	ha=0.902369	exam_f1=0.537409, macro_f1=0.428352, micro_f1=0.579490
+nll_loss=4.529657	c_loss=0.000000
+kl_loss=0.013457	total_loss=16.455965
+**********************************************
+--------------------------------
+epoch 64 starts!
+step=4880  2023-05-15T10:05:30.615935
+macro_f1=0.322523, micro_f1=0.558750
+nll_loss=3.695951	nll_loss_x=4.215636
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009170	cpc_loss=2.535768
+latent_cpc_loss=5.541838	feat_recon_loss=0.190225	total_loss=14.724338
+
+step=4920  2023-05-15T10:05:31.131833
+macro_f1=0.321791, micro_f1=0.554876
+nll_loss=3.675419	nll_loss_x=4.194841
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008200	cpc_loss=2.443974
+latent_cpc_loss=5.541938	feat_recon_loss=0.190378	total_loss=14.646029
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:32.100235
+acc=0.089613	ha=0.902251	exam_f1=0.536657, macro_f1=0.435495, micro_f1=0.578868
+nll_loss=4.530137	c_loss=0.000000
+kl_loss=0.010857	total_loss=16.416416
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 65 starts!
+step=4960  2023-05-15T10:05:32.532503
+macro_f1=0.327345, micro_f1=0.557360
+nll_loss=3.643528	nll_loss_x=4.177660
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010471	cpc_loss=2.515712
+latent_cpc_loss=5.541720	feat_recon_loss=0.190840	total_loss=14.572021
+
+step=5000  2023-05-15T10:05:33.045404
+macro_f1=0.328682, micro_f1=0.556910
+nll_loss=3.687022	nll_loss_x=4.223003
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008424	cpc_loss=2.698342
+latent_cpc_loss=5.541745	feat_recon_loss=0.189523	total_loss=14.740494
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:33.963252
+acc=0.087576	ha=0.902465	exam_f1=0.539080, macro_f1=0.434251, micro_f1=0.582509
+nll_loss=4.524115	c_loss=0.000000
+kl_loss=0.010757	total_loss=16.423443
+**********************************************
+--------------------------------
+epoch 66 starts!
+step=5040  2023-05-15T10:05:34.401238
+macro_f1=0.329354, micro_f1=0.555524
+nll_loss=3.638667	nll_loss_x=4.209584
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010016	cpc_loss=2.618495
+latent_cpc_loss=5.542313	feat_recon_loss=0.189252	total_loss=14.643430
+
+step=5080  2023-05-15T10:05:34.919862
+macro_f1=0.328740, micro_f1=0.564135
+nll_loss=3.631341	nll_loss_x=4.144312
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010769	cpc_loss=2.543076
+latent_cpc_loss=5.541661	feat_recon_loss=0.190125	total_loss=14.531322
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:35.811150
+acc=0.086762	ha=0.902808	exam_f1=0.539147, macro_f1=0.434476, micro_f1=0.582040
+nll_loss=4.526301	c_loss=0.000000
+kl_loss=0.008659	total_loss=16.417259
+**********************************************
+--------------------------------
+epoch 67 starts!
+step=5120  2023-05-15T10:05:36.293085
+macro_f1=0.336070, micro_f1=0.565292
+nll_loss=3.572168	nll_loss_x=4.129886
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007307	cpc_loss=2.564002
+latent_cpc_loss=5.542081	feat_recon_loss=0.188028	total_loss=14.391074
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:37.644690
+acc=0.086762	ha=0.902508	exam_f1=0.539620, macro_f1=0.435045, micro_f1=0.583509
+nll_loss=4.508996	c_loss=0.000000
+kl_loss=0.009986	total_loss=16.369110
+**********************************************
+--------------------------------
+epoch 68 starts!
+step=5160  2023-05-15T10:05:37.661142
+macro_f1=0.325727, micro_f1=0.558910
+nll_loss=3.638958	nll_loss_x=4.203320
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009826	cpc_loss=2.408557
+latent_cpc_loss=5.541647	feat_recon_loss=0.189537	total_loss=14.616612
+
+step=5200  2023-05-15T10:05:38.175427
+macro_f1=0.331395, micro_f1=0.564664
+nll_loss=3.545869	nll_loss_x=4.111392
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010022	cpc_loss=2.537352
+latent_cpc_loss=5.541737	feat_recon_loss=0.190109	total_loss=14.307083
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:39.499185
+acc=0.084318	ha=0.901490	exam_f1=0.533815, macro_f1=0.430695, micro_f1=0.577035
+nll_loss=4.557404	c_loss=0.000000
+kl_loss=0.012039	total_loss=16.543325
+**********************************************
+--------------------------------
+epoch 69 starts!
+step=5240  2023-05-15T10:05:39.553050
+macro_f1=0.343087, micro_f1=0.566840
+nll_loss=3.600955	nll_loss_x=4.165283
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010401	cpc_loss=2.431719
+latent_cpc_loss=5.541741	feat_recon_loss=0.190138	total_loss=14.519908
+
+step=5280  2023-05-15T10:05:40.072936
+macro_f1=0.338817, micro_f1=0.565622
+nll_loss=3.542044	nll_loss_x=4.142545
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009187	cpc_loss=2.470881
+latent_cpc_loss=5.541902	feat_recon_loss=0.190387	total_loss=14.349612
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:41.358121
+acc=0.085947	ha=0.902830	exam_f1=0.537417, macro_f1=0.431206, micro_f1=0.580844
+nll_loss=4.524442	c_loss=0.000000
+kl_loss=0.008012	total_loss=16.418175
+**********************************************
+--------------------------------
+epoch 70 starts!
+step=5320  2023-05-15T10:05:41.449885
+macro_f1=0.335701, micro_f1=0.564628
+nll_loss=3.558206	nll_loss_x=4.127803
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009945	cpc_loss=2.503205
+latent_cpc_loss=5.541657	feat_recon_loss=0.189539	total_loss=14.351236
+
+step=5360  2023-05-15T10:05:41.970480
+macro_f1=0.345021, micro_f1=0.570687
+nll_loss=3.534775	nll_loss_x=4.119427
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007071	cpc_loss=2.485891
+latent_cpc_loss=5.541626	feat_recon_loss=0.190010	total_loss=14.321297
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:43.225112
+acc=0.089206	ha=0.902433	exam_f1=0.538222, macro_f1=0.433680, micro_f1=0.581583
+nll_loss=4.559916	c_loss=0.000000
+kl_loss=0.005598	total_loss=16.512554
+**********************************************
+--------------------------------
+epoch 71 starts!
+step=5400  2023-05-15T10:05:43.356512
+macro_f1=0.348740, micro_f1=0.576232
+nll_loss=3.499396	nll_loss_x=4.074598
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008295	cpc_loss=2.485990
+latent_cpc_loss=5.541610	feat_recon_loss=0.189727	total_loss=14.180486
+
+step=5440  2023-05-15T10:05:43.877179
+macro_f1=0.358537, micro_f1=0.581395
+nll_loss=3.515146	nll_loss_x=4.088510
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010581	cpc_loss=2.431541
+latent_cpc_loss=5.541601	feat_recon_loss=0.191271	total_loss=14.237731
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:45.084423
+acc=0.092872	ha=0.902733	exam_f1=0.539869, macro_f1=0.430974, micro_f1=0.581984
+nll_loss=4.557691	c_loss=0.000000
+kl_loss=0.005698	total_loss=16.511520
+**********************************************
+--------------------------------
+epoch 72 starts!
+step=5480  2023-05-15T10:05:45.255523
+macro_f1=0.349021, micro_f1=0.576985
+nll_loss=3.476336	nll_loss_x=4.055109
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010013	cpc_loss=2.425479
+latent_cpc_loss=5.541614	feat_recon_loss=0.189334	total_loss=14.128299
+
+step=5520  2023-05-15T10:05:45.773339
+macro_f1=0.349039, micro_f1=0.575294
+nll_loss=3.454576	nll_loss_x=4.058270
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007601	cpc_loss=2.563610
+latent_cpc_loss=5.541680	feat_recon_loss=0.189513	total_loss=14.089705
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:46.942843
+acc=0.082688	ha=0.902583	exam_f1=0.537036, macro_f1=0.429431, micro_f1=0.580593
+nll_loss=4.552586	c_loss=0.000000
+kl_loss=0.009313	total_loss=16.519163
+**********************************************
+--------------------------------
+epoch 73 starts!
+step=5560  2023-05-15T10:05:47.150282
+macro_f1=0.348509, micro_f1=0.577735
+nll_loss=3.437441	nll_loss_x=4.038857
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010160	cpc_loss=2.368231
+latent_cpc_loss=5.541719	feat_recon_loss=0.190679	total_loss=14.026654
+
+step=5600  2023-05-15T10:05:47.658859
+macro_f1=0.356291, micro_f1=0.584685
+nll_loss=3.467892	nll_loss_x=4.053901
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010391	cpc_loss=2.525619
+latent_cpc_loss=5.541854	feat_recon_loss=0.190813	total_loss=14.129478
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:48.797619
+acc=0.085540	ha=0.902787	exam_f1=0.537480, macro_f1=0.434212, micro_f1=0.581136
+nll_loss=4.553090	c_loss=0.000000
+kl_loss=0.006769	total_loss=16.506010
+**********************************************
+--------------------------------
+epoch 74 starts!
+step=5640  2023-05-15T10:05:49.041947
+macro_f1=0.365318, micro_f1=0.588972
+nll_loss=3.380505	nll_loss_x=3.981436
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006761	cpc_loss=2.392562
+latent_cpc_loss=5.541713	feat_recon_loss=0.190592	total_loss=13.840410
+
+step=5680  2023-05-15T10:05:49.548310
+macro_f1=0.358639, micro_f1=0.584735
+nll_loss=3.420757	nll_loss_x=4.017660
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009232	cpc_loss=2.412220
+latent_cpc_loss=5.541656	feat_recon_loss=0.190258	total_loss=13.975629
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:50.646907
+acc=0.086354	ha=0.902605	exam_f1=0.538808, macro_f1=0.431617, micro_f1=0.582009
+nll_loss=4.574333	c_loss=0.000000
+kl_loss=0.005022	total_loss=16.559931
+**********************************************
+--------------------------------
+epoch 75 starts!
+step=5720  2023-05-15T10:05:50.926441
+macro_f1=0.373104, micro_f1=0.582535
+nll_loss=3.363331	nll_loss_x=3.966916
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007517	cpc_loss=2.536791
+latent_cpc_loss=5.541626	feat_recon_loss=0.190550	total_loss=13.794934
+
+step=5760  2023-05-15T10:05:51.441397
+macro_f1=0.369432, micro_f1=0.592566
+nll_loss=3.364190	nll_loss_x=4.008750
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008989	cpc_loss=2.411858
+latent_cpc_loss=5.541700	feat_recon_loss=0.189267	total_loss=13.856620
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:52.502106
+acc=0.091650	ha=0.902883	exam_f1=0.536666, macro_f1=0.436913, micro_f1=0.581633
+nll_loss=4.558561	c_loss=0.000000
+kl_loss=0.007013	total_loss=16.540562
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 76 starts!
+step=5800  2023-05-15T10:05:52.844700
+macro_f1=0.371910, micro_f1=0.590627
+nll_loss=3.330796	nll_loss_x=3.968555
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009464	cpc_loss=2.537582
+latent_cpc_loss=5.541610	feat_recon_loss=0.189287	total_loss=13.755385
+
+step=5840  2023-05-15T10:05:53.359146
+macro_f1=0.363999, micro_f1=0.589859
+nll_loss=3.339191	nll_loss_x=3.972733
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006596	cpc_loss=2.542046
+latent_cpc_loss=5.541744	feat_recon_loss=0.191145	total_loss=13.755612
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:54.365653
+acc=0.083096	ha=0.902916	exam_f1=0.537750, macro_f1=0.434216, micro_f1=0.582707
+nll_loss=4.557910	c_loss=0.000000
+kl_loss=0.006455	total_loss=16.535748
+**********************************************
+--------------------------------
+epoch 77 starts!
+step=5880  2023-05-15T10:05:54.725942
+macro_f1=0.380781, micro_f1=0.597107
+nll_loss=3.322936	nll_loss_x=3.962908
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009379	cpc_loss=2.440605
+latent_cpc_loss=5.541705	feat_recon_loss=0.190315	total_loss=13.749521
+
+step=5920  2023-05-15T10:05:55.252314
+macro_f1=0.383522, micro_f1=0.597516
+nll_loss=3.271827	nll_loss_x=3.892439
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007368	cpc_loss=2.425029
+latent_cpc_loss=5.540792	feat_recon_loss=0.191153	total_loss=13.540439
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:56.228304
+acc=0.083503	ha=0.902851	exam_f1=0.535179, macro_f1=0.433143, micro_f1=0.580100
+nll_loss=4.561861	c_loss=0.000000
+kl_loss=0.008020	total_loss=16.563953
+**********************************************
+--------------------------------
+epoch 78 starts!
+step=5960  2023-05-15T10:05:56.630252
+macro_f1=0.375560, micro_f1=0.597228
+nll_loss=3.316943	nll_loss_x=3.938801
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008753	cpc_loss=2.524474
+latent_cpc_loss=5.541763	feat_recon_loss=0.188912	total_loss=13.667525
+
+step=6000  2023-05-15T10:05:57.132919
+macro_f1=0.387392, micro_f1=0.604695
+nll_loss=3.253483	nll_loss_x=3.871180
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009770	cpc_loss=2.528378
+latent_cpc_loss=5.541780	feat_recon_loss=0.186739	total_loss=13.490390
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:58.069090
+acc=0.084318	ha=0.902498	exam_f1=0.541185, macro_f1=0.433051, micro_f1=0.583809
+nll_loss=4.571169	c_loss=0.000000
+kl_loss=0.005164	total_loss=16.566751
+**********************************************
+--------------------------------
+epoch 79 starts!
+step=6040  2023-05-15T10:05:58.490843
+macro_f1=0.389552, micro_f1=0.605133
+nll_loss=3.252815	nll_loss_x=3.882398
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.010137	cpc_loss=2.351264
+latent_cpc_loss=5.541671	feat_recon_loss=0.185901	total_loss=13.503705
+
+step=6080  2023-05-15T10:05:59.005085
+macro_f1=0.380092, micro_f1=0.603434
+nll_loss=3.221077	nll_loss_x=3.869345
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009823	cpc_loss=2.394614
+latent_cpc_loss=5.541696	feat_recon_loss=0.186520	total_loss=13.422000
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:05:59.911418
+acc=0.087576	ha=0.902637	exam_f1=0.537864, macro_f1=0.436062, micro_f1=0.579563
+nll_loss=4.614295	c_loss=0.000000
+kl_loss=0.007877	total_loss=16.716183
+**********************************************
+--------------------------------
+epoch 80 starts!
+step=6120  2023-05-15T10:06:00.380582
+macro_f1=0.391071, micro_f1=0.610125
+nll_loss=3.187168	nll_loss_x=3.840352
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007718	cpc_loss=2.447342
+latent_cpc_loss=5.541648	feat_recon_loss=0.186993	total_loss=13.302562
+
+step=6160  2023-05-15T10:06:00.888543
+macro_f1=0.403074, micro_f1=0.609720
+nll_loss=3.242922	nll_loss_x=3.867137
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007620	cpc_loss=2.374398
+latent_cpc_loss=5.220897	feat_recon_loss=0.186507	total_loss=13.470189
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:01.741058
+acc=0.090020	ha=0.902830	exam_f1=0.538651, macro_f1=0.437354, micro_f1=0.581570
+nll_loss=4.577967	c_loss=0.000000
+kl_loss=0.006414	total_loss=16.599812
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 81 starts!
+step=6200  2023-05-15T10:06:02.275601
+macro_f1=0.387287, micro_f1=0.613197
+nll_loss=3.160089	nll_loss_x=3.785289
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007690	cpc_loss=2.352810
+latent_cpc_loss=5.541696	feat_recon_loss=0.185335	total_loss=13.177821
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:03.594892
+acc=0.092872	ha=0.902744	exam_f1=0.535949, macro_f1=0.434499, micro_f1=0.578537
+nll_loss=4.629251	c_loss=0.000000
+kl_loss=0.005948	total_loss=16.765383
+**********************************************
+--------------------------------
+epoch 82 starts!
+step=6240  2023-05-15T10:06:03.636042
+macro_f1=0.400216, micro_f1=0.606928
+nll_loss=3.194403	nll_loss_x=3.837414
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008294	cpc_loss=2.390725
+latent_cpc_loss=5.541793	feat_recon_loss=0.184698	total_loss=13.299150
+
+step=6280  2023-05-15T10:06:04.140239
+macro_f1=0.403678, micro_f1=0.618940
+nll_loss=3.140563	nll_loss_x=3.789617
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007228	cpc_loss=2.407794
+latent_cpc_loss=5.541877	feat_recon_loss=0.185452	total_loss=13.160095
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:05.424313
+acc=0.088391	ha=0.902380	exam_f1=0.539405, macro_f1=0.438436, micro_f1=0.579650
+nll_loss=4.617738	c_loss=0.000000
+kl_loss=0.009087	total_loss=16.777876
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 83 starts!
+step=6320  2023-05-15T10:06:05.530407
+macro_f1=0.399979, micro_f1=0.618742
+nll_loss=3.135165	nll_loss_x=3.765923
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007614	cpc_loss=2.399892
+latent_cpc_loss=5.541852	feat_recon_loss=0.185080	total_loss=13.117719
+
+step=6360  2023-05-15T10:06:06.041353
+macro_f1=0.406867, micro_f1=0.623927
+nll_loss=3.082377	nll_loss_x=3.727470
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009094	cpc_loss=2.366501
+latent_cpc_loss=5.541516	feat_recon_loss=0.183670	total_loss=12.974619
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:07.313260
+acc=0.090835	ha=0.902626	exam_f1=0.536886, macro_f1=0.436185, micro_f1=0.580355
+nll_loss=4.631086	c_loss=0.000000
+kl_loss=0.004979	total_loss=16.790689
+**********************************************
+--------------------------------
+epoch 84 starts!
+step=6400  2023-05-15T10:06:07.432797
+macro_f1=0.410544, micro_f1=0.618465
+nll_loss=3.121845	nll_loss_x=3.755891
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008172	cpc_loss=2.353257
+latent_cpc_loss=5.541767	feat_recon_loss=0.184123	total_loss=13.084192
+
+step=6440  2023-05-15T10:06:07.959486
+macro_f1=0.422634, micro_f1=0.626356
+nll_loss=3.062773	nll_loss_x=3.697588
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008495	cpc_loss=2.291077
+latent_cpc_loss=5.541564	feat_recon_loss=0.184093	total_loss=12.873268
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:09.189695
+acc=0.089206	ha=0.902744	exam_f1=0.539450, macro_f1=0.437166, micro_f1=0.583277
+nll_loss=4.638560	c_loss=0.000000
+kl_loss=0.005989	total_loss=16.824253
+**********************************************
+--------------------------------
+epoch 85 starts!
+step=6480  2023-05-15T10:06:09.350780
+macro_f1=0.411865, micro_f1=0.626335
+nll_loss=3.078051	nll_loss_x=3.732501
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008031	cpc_loss=2.440181
+latent_cpc_loss=5.541657	feat_recon_loss=0.183900	total_loss=12.974202
+
+step=6520  2023-05-15T10:06:09.876562
+macro_f1=0.421771, micro_f1=0.633740
+nll_loss=3.013132	nll_loss_x=3.644605
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006175	cpc_loss=2.351909
+latent_cpc_loss=5.541800	feat_recon_loss=0.183984	total_loss=12.709782
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:11.064078
+acc=0.086762	ha=0.902991	exam_f1=0.541509, macro_f1=0.436573, micro_f1=0.583148
+nll_loss=4.599900	c_loss=0.000000
+kl_loss=0.008872	total_loss=16.723978
+**********************************************
+--------------------------------
+epoch 86 starts!
+step=6560  2023-05-15T10:06:11.260362
+macro_f1=0.413586, micro_f1=0.620562
+nll_loss=3.073646	nll_loss_x=3.740351
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007982	cpc_loss=2.427552
+latent_cpc_loss=5.541552	feat_recon_loss=0.184483	total_loss=12.957415
+
+step=6600  2023-05-15T10:06:11.782489
+macro_f1=0.417271, micro_f1=0.627834
+nll_loss=3.019616	nll_loss_x=3.672488
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007164	cpc_loss=2.400740
+latent_cpc_loss=5.541432	feat_recon_loss=0.183467	total_loss=12.747643
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:12.934770
+acc=0.084725	ha=0.902562	exam_f1=0.537220, macro_f1=0.432169, micro_f1=0.580374
+nll_loss=4.627551	c_loss=0.000000
+kl_loss=0.007341	total_loss=16.799618
+**********************************************
+--------------------------------
+epoch 87 starts!
+step=6640  2023-05-15T10:06:13.169039
+macro_f1=0.423990, micro_f1=0.636969
+nll_loss=2.972831	nll_loss_x=3.646042
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.009417	cpc_loss=2.556717
+latent_cpc_loss=5.541515	feat_recon_loss=0.182775	total_loss=12.664617
+
+step=6680  2023-05-15T10:06:13.693063
+macro_f1=0.438811, micro_f1=0.645157
+nll_loss=2.978515	nll_loss_x=3.606104
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006717	cpc_loss=2.313518
+latent_cpc_loss=5.541515	feat_recon_loss=0.181042	total_loss=12.553146
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:14.810881
+acc=0.090020	ha=0.903076	exam_f1=0.536839, macro_f1=0.435369, micro_f1=0.579398
+nll_loss=4.664889	c_loss=0.000000
+kl_loss=0.005470	total_loss=16.909517
+**********************************************
+--------------------------------
+epoch 88 starts!
+step=6720  2023-05-15T10:06:15.082704
+macro_f1=0.435121, micro_f1=0.638201
+nll_loss=2.969262	nll_loss_x=3.609657
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006399	cpc_loss=2.209780
+latent_cpc_loss=5.541484	feat_recon_loss=0.182682	total_loss=12.565634
+
+step=6760  2023-05-15T10:06:15.612016
+macro_f1=0.440949, micro_f1=0.645368
+nll_loss=2.965700	nll_loss_x=3.591978
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008784	cpc_loss=2.451800
+latent_cpc_loss=5.541502	feat_recon_loss=0.181050	total_loss=12.549373
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:16.691486
+acc=0.085132	ha=0.902808	exam_f1=0.538771, macro_f1=0.439327, micro_f1=0.582012
+nll_loss=4.645028	c_loss=0.000000
+kl_loss=0.004809	total_loss=16.849766
+**********************************************
+saving model
+have saved model to  model/model_mirflickr/lr-0.002_lr-decay_0.50_lr-times_4.0_nll-0.50_l2-1.00_c-0.00
+
+--------------------------------
+epoch 89 starts!
+step=6800  2023-05-15T10:06:17.034460
+macro_f1=0.440274, micro_f1=0.645301
+nll_loss=2.924342	nll_loss_x=3.561603
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006538	cpc_loss=2.325737
+latent_cpc_loss=5.541478	feat_recon_loss=0.182922	total_loss=12.398700
+
+step=6840  2023-05-15T10:06:17.551650
+macro_f1=0.445251, micro_f1=0.653121
+nll_loss=2.898211	nll_loss_x=3.502461
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.007037	cpc_loss=2.265995
+latent_cpc_loss=5.541712	feat_recon_loss=0.181944	total_loss=12.265751
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:18.572758
+acc=0.087169	ha=0.902616	exam_f1=0.539065, macro_f1=0.435431, micro_f1=0.580577
+nll_loss=4.652094	c_loss=0.000000
+kl_loss=0.004457	total_loss=16.864424
+**********************************************
+--------------------------------
+epoch 90 starts!
+step=6880  2023-05-15T10:06:18.921162
+macro_f1=0.455120, micro_f1=0.653779
+nll_loss=2.904312	nll_loss_x=3.561356
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.008556	cpc_loss=2.166615
+latent_cpc_loss=5.541471	feat_recon_loss=0.183139	total_loss=12.407899
+
+step=6920  2023-05-15T10:06:19.437170
+macro_f1=0.450651, micro_f1=0.650439
+nll_loss=2.861658	nll_loss_x=3.493727
+c_loss=0.000000	c_loss_x=0.000000	kl_loss=0.006816	cpc_loss=2.369256
+latent_cpc_loss=5.541458	feat_recon_loss=0.183235	total_loss=12.194115
+
+--------------------------------
+performing validation...
+**********************************************
+valid results: 2023-05-15T10:06:20.422787
+acc=0.085947	ha=0.901544	exam_f1=0.533001, macro_f1=0.431892, micro_f1=0.571930
+nll_loss=4.757227	c_loss=0.000000
+kl_loss=0.006868	total_loss=17.211432
+**********************************************
+--------------------------------

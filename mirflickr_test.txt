@@ -1,0 +1,21 @@
+reading npy...
+reading completed
+building network...
+loaded model: model/model_mirflickr/vae-ckpt
+0.0% completed
+10.4% completed
+20.7% completed
+31.1% completed
+41.5% completed
+51.8% completed
+62.2% completed
+72.5% completed
+82.9% completed
+93.3% completed
+****************
+HA : 0.9030924527898373
+ebF1 : 0.5351686
+miF1 : 0.575024832134769
+maF1 : 0.4392558
+p_at_1 : 0.7315725314912637
+****************

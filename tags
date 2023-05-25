@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DataLoader	./data_loader.py	/^class DataLoader(object):$/;"	c
+DataLoader	./train.py	/^class DataLoader:$/;"	c
+KL	./btcvae.py	/^def KL(latent_dist, latent_sample=None, alpha=1., beta=1.1, gamma=1., is_train=False):$/;"	f
+LossFunctions	./losses/LossFunctions.py	/^class LossFunctions:$/;"	c
+METRICS	./train.py	/^METRICS = ['ACC', 'HA', 'ebF1', 'miF1', 'maF1', 'meanAUC', 'medianAUC', 'meanAUPR', 'medianAUPR', 'meanFDR', 'medianFDR', 'p_at_1', 'p_at_3', 'p_at_5']$/;"	v
+SupConLoss	./losses/losses.py	/^class SupConLoss(nn.Module):$/;"	c
+THRESHOLDS	./utils.py	/^THRESHOLDS = []$/;"	v
+VAE	./model.py	/^class VAE(nn.Module):$/;"	c
+__init__	./data_loader.py	/^    def __init__($/;"	m	class:DataLoader
+__init__	./losses/losses.py	/^    def __init__(self, temperature=0.1, contrast_mode='all',$/;"	m	class:SupConLoss
+__init__	./model.py	/^    def __init__(self, args):$/;"	m	class:VAE
+__init__	./train.py	/^    def __init__(self, indices, labels):$/;"	m	class:DataLoader
+__iter__	./data_loader.py	/^    def __iter__(self):$/;"	m	class:DataLoader	file:
+__len__	./data_loader.py	/^    def __len__(self):$/;"	m	class:DataLoader	file:
+__next__	./data_loader.py	/^    def __next__(self):$/;"	m	class:DataLoader	file:
+_get_log_pz_qz_prodzi_qzCx	./btcvae.py	/^def _get_log_pz_qz_prodzi_qzCx(latent_sample, latent_dist, n_data=100, is_mss=True):$/;"	f
+args	./main.py	/^args = parser.parse_args()$/;"	v
+build_multi_classification_loss	./model.py	/^def build_multi_classification_loss(predictions, labels):$/;"	f
+build_path	./utils.py	/^def build_path(path):$/;"	f
+compute_BCE_and_RL_loss	./model.py	/^    def compute_BCE_and_RL_loss(E):$/;"	f	function:compute_loss
+compute_auc	./evals.py	/^def compute_auc(all_targets, all_predictions):$/;"	f
+compute_aupr	./evals.py	/^def compute_aupr(all_targets, all_predictions):$/;"	f
+compute_fdr	./evals.py	/^def compute_fdr(all_targets, all_predictions, fdr_cutoff=0.5):$/;"	f
+compute_loss	./model.py	/^def compute_loss(input_label, output, args=None, epoch=0, class_weights=None):$/;"	f
+compute_metrics	./evals.py	/^def compute_metrics(predictions, targets, threshold, all_metrics=True):$/;"	f
+compute_tp_fp_fn	./evals.py	/^def compute_tp_fp_fn(true_targets, predictions, axis=0):$/;"	f
+construct_adj_mat	./data_loader.py	/^        def construct_adj_mat(insts,encoder=False):$/;"	f	function:DataLoader.next
+convert_string_to_mat	./data_loader.py	/^        def convert_string_to_mat(adj_string):$/;"	f	function:DataLoader.next
+cross_entropy_loss	./model.py	/^def cross_entropy_loss(logits, labels, n_sample):$/;"	f
+device	./model.py	/^device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")$/;"	v
+device	./test.py	/^device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")$/;"	v
+device	./train.py	/^device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")$/;"	v
+entropy	./losses/LossFunctions.py	/^    def entropy(self, logits, targets):$/;"	m	class:LossFunctions
+eps	./losses/LossFunctions.py	/^    eps = 1e-8$/;"	v	class:LossFunctions
+example_f1_score	./evals.py	/^def example_f1_score(true_targets, predictions, per_sample=False, axis=0):$/;"	f
+expand	./train.py	/^def expand(idxs, labels):$/;"	f
+f1_score	./evals.py	/^def f1_score(true_targets, predictions, average='micro', axis=0):$/;"	f
+f1_score_from_stats	./evals.py	/^def f1_score_from_stats(tp, fp, fn, average='micro'):$/;"	f
+feat_decode	./model.py	/^    def feat_decode(self, z):$/;"	m	class:VAE
+feat_encode	./model.py	/^    def feat_encode(self, x):$/;"	m	class:VAE
+feat_forward	./model.py	/^    def feat_forward(self, x):$/;"	m	class:VAE
+feat_reparameterize	./model.py	/^    def feat_reparameterize(self, mu, logvar, coeff=1.0):$/;"	m	class:VAE
+forward	./losses/losses.py	/^    def forward(self, features, labels=None, mask=None):$/;"	m	class:SupConLoss
+forward	./model.py	/^    def forward(self, label, feature):$/;"	m	class:VAE
+gaussian_loss	./losses/LossFunctions.py	/^    def gaussian_loss(self, z, z_mu, z_var, z_mu_prior, z_var_prior):$/;"	m	class:LossFunctions
+get_feat	./utils.py	/^def get_feat(data, order, meta_offset, label_dim, feature_dim):$/;"	f
+get_label	./utils.py	/^def get_label(data, order, offset, label_dim):$/;"	f
+hamming_loss	./evals.py	/^def hamming_loss(true_targets, predictions, per_sample=False, axis=0):$/;"	f
+imq_kernel	./utils.py	/^def imq_kernel(X: torch.Tensor,$/;"	f
+label_decode	./model.py	/^    def label_decode(self, z):$/;"	m	class:VAE
+label_encode	./model.py	/^    def label_encode(self, x):$/;"	m	class:VAE
+label_forward	./model.py	/^    def label_forward(self, x, feat):$/;"	m	class:VAE
+label_reparameterize	./model.py	/^    def label_reparameterize(self, mu, logvar):$/;"	m	class:VAE
+log_density_gaussian	./btcvae.py	/^def log_density_gaussian(x, mu, logvar):$/;"	f
+log_importance_weight_matrix	./btcvae.py	/^def log_importance_weight_matrix(batch_size, dataset_size):$/;"	f
+log_mean_exp	./utils.py	/^def log_mean_exp(x, mask):$/;"	f
+log_normal	./losses/LossFunctions.py	/^    def log_normal(self, x, mu, var):$/;"	m	class:LossFunctions
+log_normal	./utils.py	/^def log_normal(x, m, v):$/;"	f
+log_normal_mixture	./utils.py	/^def log_normal_mixture(z, m, v, mask=None):$/;"	f
+log_sum_exp	./utils.py	/^def log_sum_exp(x, mask):$/;"	f
+matrix_log_density_gaussian	./btcvae.py	/^def matrix_log_density_gaussian(x, mu, logvar):$/;"	f
+mean_squared_error	./losses/LossFunctions.py	/^    def mean_squared_error(self, real, predictions):$/;"	m	class:LossFunctions
+n_insts	./data_loader.py	/^    def n_insts(self):$/;"	m	class:DataLoader
+next	./data_loader.py	/^    def next(self):$/;"	m	class:DataLoader
+pad_to_longest	./data_loader.py	/^        def pad_to_longest(insts,encoder=False):$/;"	f	function:DataLoader.next
+pairwise_and	./model.py	/^def pairwise_and(a, b):$/;"	f
+pairwise_sub	./model.py	/^def pairwise_sub(a, b):$/;"	f
+parser	./main.py	/^parser = argparse.ArgumentParser()$/;"	v
+process_data	./data_loader.py	/^def process_data(data,opt):$/;"	f
+ranking_precision_score	./evals.py	/^def ranking_precision_score(Y_true, Y_score, k=10):$/;"	f
+reconstruction_loss	./losses/LossFunctions.py	/^    def reconstruction_loss(self, real, predicted, rec_type='mse' ):$/;"	m	class:LossFunctions
+safe_div	./evals.py	/^        def safe_div(a, b):$/;"	f	function:f1_score_from_stats
+sample_idxs	./train.py	/^    def sample_idxs(self, bs):$/;"	m	class:DataLoader
+show_results	./train.py	/^    def show_results(all_indiv_prob):$/;"	f	function:valid
+shuffle	./data_loader.py	/^    def shuffle(self):$/;"	m	class:DataLoader
+src_idx2word	./data_loader.py	/^    def src_idx2word(self):$/;"	m	class:DataLoader
+src_vocab_size	./data_loader.py	/^    def src_vocab_size(self):$/;"	m	class:DataLoader
+src_word2idx	./data_loader.py	/^    def src_word2idx(self):$/;"	m	class:DataLoader
+subset_accuracy	./evals.py	/^def subset_accuracy(true_targets, predictions, per_sample=False, axis=0):$/;"	f
+supconloss	./model.py	/^    def supconloss(label_emb, feat_emb, embs, temp=1.0, sample_wise=False):$/;"	f	function:compute_loss
+test	./test.py	/^def test(args):$/;"	f
+test_step	./test.py	/^    def test_step(test_idx):$/;"	f	function:test
+tgt_idx2word	./data_loader.py	/^    def tgt_idx2word(self):$/;"	m	class:DataLoader
+tgt_vocab_size	./data_loader.py	/^    def tgt_vocab_size(self):$/;"	m	class:DataLoader
+tgt_word2idx	./data_loader.py	/^    def tgt_word2idx(self):$/;"	m	class:DataLoader
+train	./train.py	/^def train(args):$/;"	f
+valid	./train.py	/^def valid(data, vae, summary_writer, valid_idx, current_step, args, extra=None):$/;"	f
